@@ -1,0 +1,215 @@
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+
+  #wrapper{
+    display: flex;
+    flex-direction: row;
+  }
+
+  #sidebar{
+    background-color: black;
+    min-height: 100vh;
+    width: 11%;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+  }
+
+  #ATG-logo{
+    width: 90%;
+    height: 100px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+  }
+
+  #content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 95%;
+    background-color: black;
+    margin-left: 147px;
+  }
+
+  #twitter-feed{
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 75px;
+  }
+
+  #socialMediaHeader{
+    font-family: 'Carter One';
+    font-size: 36px;
+    text-align: center;
+    width: 1000px;
+    margin-left: 50px;
+    color: white;
+  }
+
+  .twitter-tweet{
+    margin: 10px 20px;
+  }
+
+
+  img.img-fluid{
+    height: 200px;
+    width: 200px;
+  }
+
+  #banner{
+    length: 250px;
+    width: 1000px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+  }
+
+  div#soundcloud{
+    margin-left: 50px;
+  }
+
+  p#soundcloud-title{
+    text-align: center;
+    width: 1000px;
+    color: white;
+    font-family: 'Carter One';
+    font-size: 36px;
+    margin-top: 20px;
+  }
+
+  iframe{
+    margin-left: 70px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  #ATGshop{
+    width: 1000px;
+    height: 400px;
+    background-color: black;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+  }
+
+  #shopHeader{
+    text-align: center;
+    width: 1000px;
+    margin-left: 50px;
+    color: white;
+    font-family: 'Carter One';
+    font-size: 36px;
+  }
+  .card{
+    margin: auto 20px;
+  }
+  .fuschia:hover{
+    color: rgb(234,7,140);
+  }
+
+  .green:hover{
+    color: rgb(3,170,88);
+  }
+  .blue:hover{
+    color: rgb(4,171,235);
+  }
+  .twitter:hover{
+    color: rgb(74,179,244);
+  }
+  .soundcloud:hover{
+    color: rgb(255,85,0);
+  }
+  .instagram:hover{
+    color: rgb(157,59,170);
+  }
+
+  .youtube:hover{
+    color: rgb(255,0,0);
+  }
+
+  .sidebarlink:hover{
+    text-decoration: underline;
+  }
+
+  .sidebarlink{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 15px;
+  }
+
+  div#sideLinks{
+    margin: 5px auto 5px auto;
+  }
+
+  i.fa{
+    margin: 10px 5px;
+    color: white;
+  }
+
+  span#sidebarsocial{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+  }
+
+  span#sideContact{
+    width: 90%;
+    text-align: center;
+    color: white;
+    margin-left: 15px;
+  }
+
+  #ATG-logo{
+    margin-top: 10px;
+  }
+
+  img.hot{
+    width: 175px;
+    height: 225px;
+  }
+
+  div.card-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+  }
+
+  p.card-title{
+    font-family: 'Carter One';
+    font-weight: bold;
+    font-size: 28px;
+    color: white;
+  }
+
+  #youtube-heading{
+    color: white;
+    font-family: 'Carter One';
+    font-size: 36px;
+    text-align: center;
+    width: 1000px;
+    margin-left: 50px;
+  }
+
+  #youtube-feed{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    margin-left: 50px;
+  }
+
+  .passion{
+    font-family: 'Passion One';
+  }
+}
