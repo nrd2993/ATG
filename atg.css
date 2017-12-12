@@ -31,7 +31,10 @@
     background-color: black;
     margin-left: 147px;
   }
-
+  
+  html.fa-events-icons-ready{
+    background-color: black;
+  }
   #twitter-feed{
     width: 1000px;
     display: flex;
