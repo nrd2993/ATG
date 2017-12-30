@@ -224,20 +224,27 @@
 #footer{
   width: 100%;
   background-color: rgb(52,58,64);
-}
 
+}
+#thanksHeader{
+  margin-top: 20px;
+  margin-bottom: 400px;
+}
 .Handles{
   text-align: center;
 
 }
 #footone{
   margin: 10px;
+  color: white;
 }
 #foottwo{
   margin: 10px 111px;
+  color: white;
 }
 #footthree{
   margin: 10px;
+  color: white;
 }
 
 li{
@@ -252,6 +259,24 @@ iframe{
 #submitButton{
   width: 300px;
   margin-top: 15px;
+}
+
+#paymentMethods{
+  font-size: 11px;
+  color: gold;
+}
+
+#sizes{
+  font-size: 11px;
+  color: gold;
+}
+#colors{
+  font-size: 11px;
+  color: gold;
+}
+
+#orderRowOne, #orderRowTwo, #orderRowThree, #orderRowFour, #orderRowFive{
+  margin: 20px auto;
 }
 
 }
