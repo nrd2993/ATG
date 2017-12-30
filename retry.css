@@ -1,0 +1,439 @@
+/*Page on Laptops and up */
+@media (min-width: 992px) {
+
+/*Building the Sidebar */
+
+  div.nav.flex-column{
+    width: 12%;
+    min-height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    float: left;
+    position: fixed;
+  }
+  #ATG-logo{
+    width: 100px;
+    height: 100px;
+    margin: 10px auto;
+  }
+  p.nav-link{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .fa.fa-2x{
+    color: white;
+    margin: 6px 4px;
+  }
+  .DirectOutHeader{
+    display:flex;
+    width: 75%;
+    text-align: center;
+    text-decoration: underline;
+  }
+  .DirectOutLinks{
+    margin-top: 6px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navigation{
+    text-align: center;
+  }
+  .hashtags{
+    text-align: center;
+    margin-top: 9px;
+  }
+  .hashtag{
+    font-size: 14px;
+    margin: 2px auto;
+  }
+
+  .builder{
+    margin-top: 11px;
+
+  }
+  .company{
+    font-size: 11px;
+  }
+/* Basic Effects in Sidebar */
+  .fuschia:hover{
+    color: rgb(234,7,140);
+  }
+  .gold:hover{
+    color: gold;
+  }
+  .green:hover{
+    color: rgb(3,170,88);
+  }
+  .blue:hover{
+    color: rgb(4,171,235);
+  }
+  .twitter:hover{
+    color: rgb(74,179,244);
+  }
+  .soundcloud:hover{
+    color: rgb(255,85,0);
+  }
+  .instagram:hover{
+    color: rgb(157,59,170);
+  }
+  .youtube:hover{
+    color: rgb(255,0,0);
+  }
+  p.nav-link:hover{
+    text-decoration: underline;
+  }
+
+  /* Font Family for navlinks */
+  .QCS{
+    font-family: 'Quattrocento Sans', sans-serif;
+  }
+
+/* Building Homepage Content */
+
+  .content{
+    background-color: black;
+    height: 100%;
+    width: 88%;
+    float: right;
+    color: white;
+  }
+
+  #homePageHeader{
+    width: 100%;
+    text-align: center;
+    text-decoration: underline;
+  }
+  #homePageHeaderText{
+    font-size: 28px;
+  }
+
+  #homepageBuy{
+    margin: auto 200px;
+
+  }
+
+  img.img-fluid{
+    height: 275px;
+  }
+  a.btn{
+    margin: 10px auto;
+  }
+  #videoHeader{
+    text-align: center;
+    margin-top: 20px;
+  }
+  #videoHeaderText{
+    font-size: 28px;
+    color: white;
+    text-decoration: underline;
+  }
+  #videos{
+    margin: 15px auto 30px auto;
+  }
+  .carousel-inner img {
+  margin: auto;
+  }
+
+  #carousel1{
+    width: 25%;
+  }
+  #carousel2{
+    width: 25%;
+  }
+  #carousel3{
+    width: 25%;
+  }
+
+  #carouselWrapper{
+    width: 90%;
+    margin: 20px auto;
+  }
+  #soundcloud-title{
+    text-align: center;
+    font-size: 28px;
+    color: white;
+    font-style: bold;
+    text-decoration: underline;
+  }
+  #soundcloud{
+    margin: 30px auto;
+  }
+
+
+  #photoRowA{
+    width: 95%;
+    margin: 20px auto;
+  }
+  #photoRowB{
+    width: 95%;
+    margin: 20px auto;
+  }
+  #photoRowC{
+    width: 95%;
+    margin: 20px auto;
+  }
+  #photoRowD{
+    width: 95%;
+    margin: 20px 100px;
+  }
+
+  #PhotoGalTitleText{
+    font-size: 28px;
+    color: white;
+    font-style: bold;
+    text-align: center;
+    margin: 20px auto;
+    text-decoration: underline;
+  }
+  .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: black;
+}
+
+.container:hover .overlay {
+  opacity: .5;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.small{
+  width: 66%;
+}
+
+#footer{
+  width: 100%;
+  background-color: rgb(52,58,64);
+}
+
+.Handles{
+  text-align: center;
+
+}
+#footone{
+  margin: 10px;
+}
+#foottwo{
+  margin: 10px 111px;
+}
+#footthree{
+  margin: 10px;
+}
+
+li{
+  list-style: none;
+  font-size:12px;
+}
+
+iframe{
+  margin-bottom: 20px;
+}
+
+#submitButton{
+  width: 300px;
+  margin-top: 15px;
+}
+
+}
+
+/* Mobile site */
+@media (max-width: 536px) {
+  .content{
+    background-color: black;
+    min-height: 100vh;
+  }
+  .navbar-collapse{
+    text-align: center;
+  }
+  .QCS{
+    font-family: 'Quattrocento Sans', sans-serif;
+  }
+  #ATG-logo{
+    display: hidden;
+  }
+
+  .hashtag{
+    color: white;
+  }
+  /* Customization of background of Mobile Navbar default is deepslategrey */
+  .bg-black{
+    background-color: black;
+  }
+  /* Creating Video Section of homepage */
+  #videoHeader{
+
+  }
+  #videoHeaderText{
+    font-size: 26px;
+    color: white;
+    text-decoration: underline;
+
+  }
+  #videos{
+    margin: 10px auto;
+  }
+  #homePageHeader{
+    text-align: center;
+  }
+  #homePageHeaderText{
+    font-size: 26px;
+    color: white;
+    text-decoration: underline;
+    font-style: bold;
+  }
+
+  div.col-xs-12{
+    margin: auto 75px;
+  }
+  a.btn{
+    margin: 10px auto;
+  }
+  iframe{
+    margin-bottom: 10px;
+  }
+
+  .hashtag.green{
+    color: rgb(3,170,88);
+  }
+
+  .hashtag.gold{
+    color: gold;
+  }
+
+  .hashtag.fuschia{
+    color: rgb(234,7,140);
+  }
+
+  .company.blue{
+    color: rgb(4,171,235);
+    font-size: 11px;
+  }
+  #carousel1{
+    width: 75%;
+    margin: 10px auto;
+
+  }
+  #carousel2{
+    width: 75%;
+    margin: 10px auto;
+  }
+  #carousel3{
+    width: 75%;
+    margin: 10px auto;
+  }
+  #soundcloud-title{
+    text-align: center;
+    font-size: 28px;
+    color: white;
+    text-decoration: underline;
+  }
+
+  #soundcloud{
+    margin: 15px auto;
+  }
+  #photoRowA{
+    width: 95%;
+    margin: auto auto;
+  }
+  #photoRowB{
+    width: 95%;
+    margin: auto auto;
+  }
+  #photoRowC{
+    width: 95%;
+    margin: auto auto;
+  }
+  #photoRowD{
+    width: 95%;
+    margin: 10px auto;
+  }
+  .images{
+    margin: 10px auto;
+  }
+  #PhotoGalTitleText{
+    font-size: 28px;
+    color: white;
+    font-style: bold;
+    text-align: center;
+    text-decoration: underline;
+  }
+  body{
+    color: black;
+  }
+  .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: black;
+}
+
+.container:hover .overlay {
+  opacity: .5;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#footer{
+  width: 100%;
+  background-color: rgb(52,58,64);
+}
+
+#footone{
+  color: white;
+  margin: 20px auto;
+  list-style: none;
+  font-size: 14px;
+}
+#foottwo{
+  color: white;
+  margin: 20px auto;
+  list-style: none;
+  font-size: 14px;
+}
+#footthree{
+  color: white;
+  margin: 20px auto;
+  list-style: none;
+  font-size: 14px;
+}
+
+
+
+
+
+}
