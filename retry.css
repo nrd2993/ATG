@@ -1,5 +1,5 @@
 /*Page on Laptops and up */
-@media (min-width: 992px) {
+@media (min-width: 750px) {
 
 /*Building the Sidebar */
 
@@ -18,6 +18,12 @@
     width: 100px;
     height: 100px;
     margin: 10px auto;
+  }
+  #ATG-Banner{
+    width: 92%;
+    height: 200px;
+    margin: 20px 50px;
+
   }
   p.nav-link{
     color: white;
@@ -247,9 +253,14 @@
   color: white;
 }
 
+li a{
+  color: white;
+}
+
 li{
   list-style: none;
   font-size:12px;
+
 }
 
 iframe{
@@ -282,7 +293,7 @@ iframe{
 }
 
 /* Mobile site */
-@media (max-width: 536px) {
+@media (max-width: 749px) {
   .content{
     background-color: black;
     min-height: 100vh;
