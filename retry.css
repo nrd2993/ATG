@@ -1,5 +1,5 @@
 /*Page on Laptops and up */
-@media (min-width: 726px) {
+@media (min-width: 701px) {
 
 /*Building the Sidebar */
 
@@ -293,7 +293,7 @@ iframe{
 }
 
 /* Mobile site */
-@media (max-width: 725px) {
+@media (max-width: 700px) {
   .content{
     background-color: black;
     min-height: 100vh;
