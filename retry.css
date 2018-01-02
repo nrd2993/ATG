@@ -209,22 +209,19 @@
   margin-bottom: 400px;
 }
 
-.Handles{
-  text-align: center;
-}
 
 #footone{
-  margin: 10px;
+  margin: 10px 50px;
   color: white;
 }
 
 #foottwo{
-  margin: 10px 111px;
+  margin: 10px auto;
   color: white;
 }
 
 #footthree{
-  margin: 10px;
+  margin: 10px 50px;
   color: white;
 }
 
