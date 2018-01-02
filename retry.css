@@ -10,7 +10,7 @@
     color: white;
   }
   .hashtag{
-    font-size: 14px;
+    font-size: 18px;
     margin: 2px auto;
   }
 
@@ -20,7 +20,7 @@
     text-align: center;
   }
   .company{
-    font-size: 11px;
+    font-size: 12px;
   }
   .brand{
     font-size: 34px;
@@ -52,6 +52,10 @@
   }
   p.nav-link:hover{
     text-decoration: underline;
+  }
+
+  .nav-link.nav-item{
+    font-size: 24px;
   }
 
   /* Font Family for navlinks */
@@ -102,11 +106,13 @@
   }
 
   #videos{
-    margin: 15px auto 30px auto;
+    margin: 15px auto 5px auto;
   }
 
   .carousel-inner img{
-  margin: 10px auto;
+    margin: 10px auto;
+    width: 100%;
+    height: 100%;
   }
 
   #carousel1{
@@ -209,6 +215,12 @@
   margin-bottom: 400px;
 }
 
+label{
+  font-size: 16px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
 
 #footone{
   margin: 10px 50px;
@@ -231,7 +243,7 @@ li a{
 
 li{
   list-style: none;
-  font-size:12px;
+  font-size:16px;
 
 }
 
