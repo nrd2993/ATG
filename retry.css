@@ -1,52 +1,9 @@
 
-/*Building the Sidebar */
-
-  div.nav.flex-column{
-    width: 12%;
-    min-height: 100vh;
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: white;
-    float: left;
-    position: fixed;
-  }
-  #ATG-logo{
-    width: 100px;
-    height: 100px;
-    margin: 10px auto;
-  }
   #ATG-Banner{
     width: 90%;
-    height: 200px;
-    margin: 20px 50px;
-
-  }
-  p.nav-link{
-    color: white;
-    font-weight: bold;
-    font-size: 20px;
-  }
-  .fa.fa-2x{
-    color: white;
-    margin: 6px 4px;
-  }
-  .DirectOutHeader{
-    display:flex;
-    width: 75%;
-    text-align: center;
-    text-decoration: underline;
-  }
-  .DirectOutLinks{
-    margin-top: 6px;
-    display: flex;
-    flex-direction: column;
+    height: 5%;
   }
 
-  .navigation{
-    text-align: center;
-  }
   .hashtags{
     text-align: center;
     margin-top: 9px;
@@ -123,45 +80,52 @@
 
   #homepageBuy{
     margin: auto 200px;
-
   }
 
   img.img-fluid{
     height: 275px;
   }
+
   a.btn{
     margin: 10px auto;
   }
+
   #videoHeader{
     text-align: center;
     margin-top: 20px;
   }
+
   #videoHeaderText{
     font-size: 28px;
     color: white;
     text-decoration: underline;
   }
+
   #videos{
     margin: 15px auto 30px auto;
   }
-  .carousel-inner img {
-  margin: auto;
+
+  .carousel-inner img{
+  margin: 10px auto;
   }
 
   #carousel1{
-    width: 25%;
+    width: 65%;
   }
+
   #carousel2{
-    width: 25%;
+    width: 65%;
   }
+
   #carousel3{
-    width: 25%;
+    width: 65%;
   }
 
   #carouselWrapper{
     width: 90%;
-    margin: 20px auto;
+    margin: 10px auto;
   }
+
   #soundcloud-title{
     text-align: center;
     font-size: 28px;
@@ -169,23 +133,26 @@
     font-style: bold;
     text-decoration: underline;
   }
+
   #soundcloud{
     margin: 30px auto;
   }
-
 
   #photoRowA{
     width: 95%;
     margin: 20px auto;
   }
+
   #photoRowB{
     width: 95%;
     margin: 20px auto;
   }
+
   #photoRowC{
     width: 95%;
     margin: 20px auto;
   }
+
   #photoRowD{
     width: 95%;
     margin: 20px 100px;
@@ -199,6 +166,7 @@
     margin: 20px auto;
     text-decoration: underline;
   }
+
   .overlay {
   position: absolute;
   top: 0;
@@ -226,6 +194,7 @@
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
+
 .small{
   width: 66%;
 }
@@ -233,24 +202,27 @@
 #footer{
   width: 100%;
   background-color: rgb(52,58,64);
-
 }
+
 #thanksHeader{
   margin-top: 20px;
   margin-bottom: 400px;
 }
+
 .Handles{
   text-align: center;
-
 }
+
 #footone{
   margin: 10px;
   color: white;
 }
+
 #foottwo{
   margin: 10px 111px;
   color: white;
 }
+
 #footthree{
   margin: 10px;
   color: white;
@@ -289,6 +261,7 @@ iframe{
   font-size: 11px;
   color: gold;
 }
+
 #colors{
   font-size: 11px;
   color: gold;
