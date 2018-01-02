@@ -19,77 +19,40 @@
 
   </head>
   <body>
-  <!--Sidebar  -->
-  <div class="wrapper d-none d-md-block">
-    <div class="nav flex-column" aria-orientation="vertical">
-      <img class="d-none d-md-block img-fluid" id="ATG-logo" src="ATG-logo.jpg" alt="Against The Grain Logo">
-      <!--Navigation Link -->
-      <div class="navigation">
-        <a href="index.html" aria-selected="true"><p class="nav-link green QCS">Home</p></a>
-        <a href="ATGShopping.html" aria-selected="false"><p class="nav-link gold QCS">Shop</p></a>
-        <a href="Releases.html" aria-selected="false"><p class="nav-link fuschia QCS">Releases</p></a>
-        <a href="Photos.html" aria-selected="false"><p class="nav-link blue QCS">Photos</p></a>
+    <nav class="navbar navbar-dark bg-black">
+    <div class="brand"><span class="green QCS">Against </span><span class="gold QCS">The </span><span class="fuschia QCS">Grain </span></div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav d-flex flex-column align-items-center">
+          <a class="nav-item Nav-Hover-Green nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-item Nav-Hover-Gold nav-link" href="ATGShopping.html">Shop</a>
+          <a class="nav-item Nav-Hover-Fuschia nav-link" href="Releases.html">Promotions</a>
+          <a class="nav-item Nav-Hover-Blue nav-link" href="Photos.html">Photos</a>
+        </div>
+        <!-- Hashtags for Social Media  -->
+        <div class="hashtags">
+          <p class="hashtag green QCS">#InBeamWeTrust</p>
+          <p class="hashtag gold QCS">#BeamUp</p>
+          <p class="hashtag fuschia QCS">#ATG</p>
+        </div>
+        <!-- Company credit  -->
+        <div class="builder">
+          <p class = "company blue QCS">contact web developer at: NRD2993@gmail.com</p>
+        </div>
       </div>
-      <!-- Out Links to Social Media -->
-      <p class= "DirectOutHeader QCS">Visit Us On Social Media</p>
-      <div class="DirectOutLinks">
-      <div class="row">
-        <a href="https://www.instagram.com/steadybeamin410/"><i class="fa fa-instagram fa-2x instagram" aria-hidden="true"></i></a>
-        <a href="https://soundcloud.com/atgstaybeamin"><i class="fa fa-soundcloud fa-2x soundcloud" aria-hidden="true"></i></a>
-      </div>
-      <div class="row">
-        <a href="https://twitter.com/SteadyBeamin410"><i class="fa fa-twitter-square fa-2x twitter" aria-hidden="true"></i></a>
-        <a href="https://www.youtube.com/channel/UCbwzxhkRerPlMBNYcFHb56A"><i class="fa fa-youtube-square fa-2x youtube" aria-hidden="true"></i></a>
-      </div>
-      </div>
-      <!-- Hashtags for Social Media  -->
-      <div class="hashtags">
-        <p class="hashtag QCS">#InBeamWeTrust</p>
-        <p class="hashtag QCS">#BeamUp</p>
-        <p class="hashtag QCS">#ATG</p>
-      </div>
-      <!-- Company credit  -->
-      <div class="builder">
-        <p class = "company QCS">Created by DAS Coding Labs</p>
-      </div>
-    </div>
-  </div>
-
-  <!-- Mobile Navigation -->
-  <nav class="navbar navbar-expand-lg navbar navbar-dark bg-black d-md-none d-lg-none d-xl-none">
-    <a class="navbar-brand QCS" href="#"><span class="green">Against </span><span class="gold">The </span><span class="fuschia">Grain </span> </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-item Nav-Hover-Green nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-        <a class="nav-item Nav-Hover-Gold nav-link" href="ATGShopping.html">Shop</a>
-        <a class="nav-item Nav-Hover-Fuschia nav-link" href="Releases.html">Releases</a>
-        <a class="nav-item Nav-Hover-Blue nav-link" href="Photos.html">Photos</a>
-      </div>
-      <!-- Hashtags for Social Media  -->
-      <div class="hashtags">
-        <p class="hashtag green QCS">#InBeamWeTrust</p>
-        <p class="hashtag gold QCS">#BeamUp</p>
-        <p class="hashtag fuschia QCS">#ATG</p>
-      </div>
-      <!-- Company credit  -->
-      <div class="builder">
-        <p class = "company blue QCS">Contact web developer at: NRD2993@gmail.com</p>
-      </div>
-    </div>
-  </nav>
+    </nav>
 
   <div class="content">
-    <div class="preorderHeader">
-      <h1 class="preorderTitle d-flex justify-content-center">Pre-Order Fall Collection: Daylight Cravings</h1>
+    <div class="preorderHeader d-flex align-items-center justify-content-center">
+      <h1 class="preorderTitle ">Pre-Order Fall Collection: Daylight Cravings</h1>
     </div>
-      <form action="https://formspree.io/againstthegrain410@gmail.com" method="POST">
+      <form id=""action="https://formspree.io/againstthegrain410@gmail.com" method="POST">
         <input type="hidden" name="_next" value="ATG/thanks.html" />
         <input type="hidden" name="_subject" value="New Fall Collection Pre-Order!" />
 
-        <div id="orderRowOne" class="form-group form-row justify-content-center">
+        <div id="orderRowOne" class="form-group form-row align-items-center justify-content-center">
           <div class="d-flex flex-column col-md-3">
             <label for="fullName">Full Name:</label>
             <input type="text" name="name" class="rounded" id="fullName">
@@ -104,7 +67,7 @@
           </div>
         </div>
 
-          <div id="orderRowTwo" class="form-group form-row justify-content-center">
+          <div id="orderRowTwo" class="form-group form-row align-items-center justify-content-center">
             <div class="d-flex flex-column col-md-3">
               <label for="address1">Address:</label>
               <input type="text" name="address" class="rounded" id="address1">
@@ -114,7 +77,7 @@
               <input type="text" name="address2" class="rounded" id="address2">
             </div>
 
-            <div id="orderRowThree" class="form-group form-row justify-content-center">
+            <div id="orderRowThree" class="form-group form-row align-items-center justify-content-center">
               <div class="d-flex flex-column col-md-3">
                 <label for="city">City:</label>
                 <input type="text" name="city" class="rounded" id="city">
@@ -131,15 +94,15 @@
             <div id="orderRowFour" class="form-group form-row justify-content-center align-items-center">
               <div class="d-flex flex-column col-md-3">
                 <label for="shirtSize">Shirt Size: <span id="sizes">S, M, L, XL</span></label>
-                <input type="text" name="shirtSize" id="shirtSize" class="rounded" size="100">
+                <input type="text" name="shirtSize" id="shirtSize" class="rounded" size="80">
               </div>
               <div class="d-flex flex-column col-md-3">
                 <label for="state">Color of Shirt: <span id="colors">Red, Blue, Green</span></label>
-                  <input type="text" name="state" id="state" class="rounded" size="100">
+                  <input type="text" name="state" id="state" class="rounded" size="80">
               </div>
               <div class="d-flex flex-column col-md-3">
                 <label for="state">Method of Payment: <span id="paymentMethods">Paypal, Square Cash, Cash</span></label>
-                  <input type="text" name="state" id="state" class="rounded" size="100">
+                  <input type="text" name="state" id="state" class="rounded" size="80">
               </div>
             </div>
               <div id="orderRowFive" class="d-flex flex-column col-md-3">
@@ -189,4 +152,8 @@
 
 
   </body>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
 </html>
