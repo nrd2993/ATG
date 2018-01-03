@@ -1,7 +1,7 @@
 
   #ATG-Banner{
-    width: 90%;
-    height: 5%;
+    width: 75%;
+    height: 2%;
   }
 
   .hashtags{
@@ -221,6 +221,22 @@ label{
   margin-top: 5px;
 }
 
+#traditionalTitle, #ATGTitle{
+  font-size: 26px;
+}
+
+.releases{
+  width: 300px;
+  height: 300px;
+  margin-bottom: 20px;
+}
+
+.releases2{
+  width: 300px;
+  height: 300px;
+  margin: auto 50px;
+}
+
 
 #footone{
   margin: 10px 50px;
@@ -243,7 +259,8 @@ li a{
 
 li{
   list-style: none;
-  font-size:16px;
+  font-size:12px;
+  text-align: center;
 
 }
 
