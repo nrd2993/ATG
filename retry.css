@@ -96,7 +96,7 @@
 
   #videoHeader{
     text-align: center;
-    margin-top: 20px;
+    margin-top: 50px;
   }
 
   #videoHeaderText{
@@ -106,7 +106,7 @@
   }
 
   #videos{
-    margin: 15px auto 5px auto;
+    margin: 15px auto 50px auto;
   }
 
   .carousel-inner img{
@@ -116,20 +116,26 @@
   }
 
   #carousel1{
-    width: 65%;
+    width: 80%;
   }
 
   #carousel2{
-    width: 65%;
+    width: 80%;
   }
 
   #carousel3{
-    width: 65%;
+    width: 80%;
+  }
+
+  #preOrderBTN{
+    width: 75%;
+    height: 5%;
+    font-size: 20px;
   }
 
   #carouselWrapper{
     width: 90%;
-    margin: 10px auto;
+    margin: 10px auto 60px auto;
   }
 
   #soundcloud-title{
@@ -145,23 +151,18 @@
   }
 
   #photoRowA{
-    width: 95%;
+    width: 100%;
     margin: 20px auto;
   }
 
   #photoRowB{
-    width: 95%;
+    width: 100%;
     margin: 20px auto;
   }
 
   #photoRowC{
-    width: 95%;
+    width: 100%;
     margin: 20px auto;
-  }
-
-  #photoRowD{
-    width: 95%;
-    margin: 20px 100px;
   }
 
   #PhotoGalTitleText{
@@ -171,6 +172,12 @@
     text-align: center;
     margin: 20px auto;
     text-decoration: underline;
+  }
+
+  .images{
+    width: 100%;
+    height: 100%;
+    margin: 5px auto;
   }
 
   .overlay {
@@ -221,20 +228,44 @@ label{
   margin-top: 5px;
 }
 
-#traditionalTitle, #ATGTitle{
+#traditionalTitle, #ATGTitle, #albumTitle, #springTitle, .forSaleTitle{
   font-size: 26px;
 }
 
 .releases{
   width: 300px;
   height: 300px;
-  margin-bottom: 20px;
+  margin: 10px 10px 30px 10px;
 }
 
-.releases2{
+.releasesLong{
   width: 300px;
-  height: 300px;
-  margin: auto 50px;
+  height: 400px;
+  margin: 10px 10px 30px 10px;
+}
+
+.forSaleItems{
+  margin: 30px auto;
+}
+
+#forSale{
+  margin-bottom: 70px;
+}
+
+#fall1, #fall2, #fall3{
+  margin: 20px 40px;
+  height: 500px;
+  width: 300px;
+}
+
+#merch1, #merch2, #merch3{
+  height: 400px;
+  width: 300px;
+  margin: 20px 40px;
+}
+
+.merchTitle{
+  font-size: 20px;
 }
 
 
