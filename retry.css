@@ -14,11 +14,10 @@
     margin: 2px auto;
   }
 
-  /* .fa{
+  .fa{
     color: white;
-    margin: 10px;
-  } */
-
+    margin: auto 10px;
+  }
   .builder{
     margin-top: 11px;
     color: white;
