@@ -304,9 +304,11 @@ iframe{
   margin-top: 15px;
 }
 
-.preorderHeader{
+.preorderHeader, .merchOrderTitle{
   text-align: center;
   width: 95%;
+  text-decoration: underline;
+  margin-top: 20px;
 }
 
 #paymentMethods{
@@ -324,9 +326,19 @@ iframe{
   color: gold;
 }
 
-#orderRowOne, #orderRowTwo, #orderRowThree, #orderRowFour, #orderRowFive{
+#orderRowOne, #orderRowTwo, #orderRowThree, #orderRowFour, #orderRowFive, #merchOrderRowOne,
+#merchOrderRowTwo,  #merchOrderRowThree,  #merchOrderRowFour,  #merchOrderRowFive, #merchOrderRowSix{
   margin: 20px auto;
 }
+
+#atgpatch, #atglighter{
+  color: white;
+}
+
+#merchOrderRowFive{
+  margin-left: 40px;
+}
+
 
 span{
   color: white;
