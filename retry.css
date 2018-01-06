@@ -29,6 +29,9 @@
   .brand{
     font-size: 34px;
   }
+  body{
+    width: 100%;
+  }
 /* Basic Effects in Sidebar */
   .fuschia:hover{
     color: rgb(234,7,140);
