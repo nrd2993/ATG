@@ -29,9 +29,7 @@
   .brand{
     font-size: 34px;
   }
-  body{
-    width: 100%;
-  }
+
 /* Basic Effects in Sidebar */
   .fuschia:hover{
     color: rgb(234,7,140);
@@ -78,6 +76,9 @@
     width: 100%;
     float: right;
     color: white;
+  }
+  html.fa-events-icons-ready{
+    background-color: black
   }
 
   #homePageHeader{
