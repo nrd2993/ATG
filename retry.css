@@ -251,6 +251,12 @@ label{
   margin: 10px 10px 30px 10px;
 }
 
+.ReleaseVault{
+  text-align: center;
+  margin: 30px auto;
+
+}
+
 .releasesLong{
   width: 400px;
   height: 250px;
@@ -322,12 +328,13 @@ iframe{
   margin-top: 15px;
 }
 
-.preorderHeader, .merchOrderTitle{
+.preorderHeader, .merchOrderTitle, .shopHeader, .forSaleTitle{
   text-align: center;
   width: 95%;
-  text-decoration: underline;
   margin-top: 20px;
 }
+
+
 
 #paymentMethods{
   font-size: 11px;
