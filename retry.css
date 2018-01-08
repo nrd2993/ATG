@@ -252,6 +252,11 @@ label{
 }
 
 .releasesLong{
+  width: 400px;
+  height: 250px;
+  margin: 10px 10px 30px 10px;
+}
+.releasesLong2{
   width: 300px;
   height: 400px;
   margin: 10px 10px 30px 10px;
