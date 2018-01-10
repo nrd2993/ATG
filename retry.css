@@ -1,199 +1,214 @@
+#ATG-Banner {
+  width: 85%;
+  height: 5%;
+}
 
-  #ATG-Banner{
-    width: 85%;
-    height: 5%;
-  }
+.hashtags {
+  text-align: center;
+  margin-top: 9px;
+  color: white;
+}
 
-  .hashtags{
-    text-align: center;
-    margin-top: 9px;
-    color: white;
-  }
-  .hashtag{
-    font-size: 18px;
-    margin: 2px auto;
-  }
+.hashtag {
+  font-size: 18px;
+  margin: 2px auto;
+}
 
-  .fa{
-    color: white;
-    margin: auto 10px;
-  }
-  .builder{
-    margin-top: 11px;
-    color: white;
-    text-align: center;
-  }
-  .company{
-    font-size: 12px;
-  }
-  .brand{
-    font-size: 34px;
-  }
+.fa {
+  color: white;
+  margin: auto 10px;
+}
+
+.builder {
+  margin-top: 11px;
+  color: white;
+  text-align: center;
+}
+
+.company {
+  font-size: 12px;
+}
+
+.brand {
+  font-size: 34px;
+}
 
 /* Basic Effects in Sidebar */
-  .fuschia:hover{
-    color: rgb(234,7,140);
-  }
-  .gold:hover{
-    color: gold;
-  }
-  .green:hover{
-    color: rgb(3,170,88);
-  }
-  .blue:hover{
-    color: rgb(4,171,235);
-  }
-  .twitter:hover{
-    color: rgb(74,179,244);
-  }
-  .soundcloud:hover{
-    color: rgb(255,85,0);
-  }
-  .instagram:hover{
-    color: rgb(157,59,170);
-  }
-  .youtube:hover{
-    color: rgb(255,0,0);
-  }
-  p.nav-link:hover{
-    text-decoration: underline;
-  }
 
-  .nav-link.nav-item{
-    font-size: 24px;
-  }
+.fuschia:hover {
+  color: rgb(234, 7, 140);
+}
 
-  /* Font Family for navlinks */
-  .QCS{
-    font-family: 'Quattrocento Sans', sans-serif;
-  }
+.gold:hover {
+  color: gold;
+}
+
+.green:hover {
+  color: rgb(3, 170, 88);
+}
+
+.blue:hover {
+  color: rgb(4, 171, 235);
+}
+
+.twitter:hover {
+  color: rgb(74, 179, 244);
+}
+
+.soundcloud:hover {
+  color: rgb(255, 85, 0);
+}
+
+.instagram:hover {
+  color: rgb(157, 59, 170);
+}
+
+.youtube:hover {
+  color: rgb(255, 0, 0);
+}
+
+p.nav-link:hover {
+  text-decoration: underline;
+}
+
+.nav-link.nav-item {
+  font-size: 24px;
+}
+
+/* Font Family for navlinks */
+
+.QCS {
+  font-family: 'Quattrocento Sans', sans-serif;
+}
 
 /* Building Homepage Content */
 
-  .content{
-    background-color: black;
-    height: 100%;
-    width: 100%;
-    float: right;
-    color: white;
-  }
-  html.fa-events-icons-ready{
-    background-color: black;
-  }
+.content {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  float: right;
+  color: white;
+}
 
-  nav{
-    width: 100%;
-    float: right;
-  }
+html.fa-events-icons-ready {
+  background-color: black;
+}
 
-  #homePageHeader{
-    width: 100%;
-    text-align: center;
-    text-decoration: underline;
-  }
-  #homePageHeaderText{
-    font-size: 28px;
-  }
+nav {
+  width: 100%;
+  float: right;
+}
 
-  #homepageBuy{
-    margin: auto 200px;
-  }
+#homePageHeader {
+  width: 100%;
+  text-align: center;
+  text-decoration: underline;
+}
 
-  img.img-fluid{
-    height: 275px;
-  }
+#homePageHeaderText {
+  font-size: 28px;
+}
 
-  a.btn{
-    margin: 10px auto;
-  }
+#homepageBuy {
+  margin: auto 200px;
+}
 
-  #videoHeader{
-    text-align: center;
-    margin-top: 50px;
-  }
+img.img-fluid {
+  height: 275px;
+}
 
-  #videoHeaderText{
-    font-size: 28px;
-    color: white;
-    text-decoration: underline;
-  }
+a.btn {
+  margin: 10px auto;
+}
 
-  #videos{
-    margin: 15px auto 50px auto;
-  }
+#videoHeader {
+  text-align: center;
+  margin-top: 50px;
+}
 
-  .carousel-inner img{
-    margin: 10px auto;
-    width: 100%;
-    height: 100%;
-  }
+#videoHeaderText {
+  font-size: 28px;
+  color: white;
+  text-decoration: underline;
+}
 
-  #carousel1{
-    width: 80%;
-  }
+#videos {
+  margin: 15px auto 50px auto;
+}
 
-  #carousel2{
-    width: 80%;
-  }
+.carousel-inner img {
+  margin: 10px auto;
+  width: 100%;
+  height: 100%;
+}
 
-  #carousel3{
-    width: 80%;
-  }
+#carousel1 {
+  width: 80%;
+}
 
-  #preOrderBTN{
-    width: 75%;
-    height: 5%;
-    font-size: 16px;
-  }
+#carousel2 {
+  width: 80%;
+}
 
-  #carouselWrapper{
-    width: 90%;
-    margin: 10px auto 60px auto;
-  }
+#carousel3 {
+  width: 80%;
+}
 
-  #soundcloud-title{
-    text-align: center;
-    font-size: 28px;
-    color: white;
-    font-style: bold;
-    text-decoration: underline;
-  }
+#preOrderBTN {
+  width: 75%;
+  height: 5%;
+  font-size: 16px;
+}
 
-  #soundcloud{
-    margin: 30px 20px;
-  }
+#carouselWrapper {
+  width: 90%;
+  margin: 10px auto 60px auto;
+}
 
-  #photoRowA{
-    width: 100%;
-    margin: 20px auto;
-  }
+#soundcloud-title {
+  text-align: center;
+  font-size: 28px;
+  color: white;
+  font-style: bold;
+  text-decoration: underline;
+}
 
-  #photoRowB{
-    width: 100%;
-    margin: 20px auto;
-  }
+#soundcloud {
+  margin: 30px 20px;
+}
 
-  #photoRowC{
-    width: 100%;
-    margin: 20px auto;
-  }
+#photoRowA {
+  width: 100%;
+  margin: 20px auto;
+}
 
-  #PhotoGalTitleText{
-    font-size: 28px;
-    color: white;
-    font-style: bold;
-    text-align: center;
-    margin: 20px auto;
-    text-decoration: underline;
-  }
+#photoRowB {
+  width: 100%;
+  margin: 20px auto;
+}
 
-  .images{
-    width: 100%;
-    height: 100%;
-    margin: 5px auto;
-  }
+#photoRowC {
+  width: 100%;
+  margin: 20px auto;
+}
 
-  .overlay {
+#PhotoGalTitleText {
+  font-size: 28px;
+  color: white;
+  font-style: bold;
+  text-align: center;
+  margin: 20px auto;
+  text-decoration: underline;
+}
+
+.images {
+  width: 100%;
+  height: 100%;
+  margin: 5px auto;
+}
+
+.overlay {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -221,154 +236,148 @@
   text-align: center;
 }
 
-.small{
+.small {
   width: 66%;
 }
 
-#footer{
+#footer {
   width: 100%;
-  background-color: rgb(52,58,64);
+  background-color: rgb(52, 58, 64);
 }
 
-#thanksHeader{
+#thanksHeader {
   margin-top: 20px;
   margin-bottom: 400px;
 }
 
-label{
+label {
   font-size: 16px;
   margin-left: 5px;
   margin-top: 5px;
 }
 
-#traditionalTitle, #ATGTitle, #albumTitle, #springTitle, .forSaleTitle{
+#traditionalTitle, #ATGTitle, #albumTitle, #springTitle, .forSaleTitle {
   font-size: 26px;
 }
 
-.releases{
+.releases {
   width: 300px;
   height: 300px;
   margin: 10px 10px 30px 10px;
 }
 
-.ReleaseVault{
+.ReleaseVault {
   text-align: center;
   margin: 30px auto;
-
 }
 
-.releasesLong{
+.releasesLong {
   width: 400px;
   height: 250px;
   margin: 10px 10px 30px 10px;
 }
-.releasesLong2{
+
+.releasesLong2 {
   width: 300px;
   height: 400px;
   margin: 10px 10px 30px 10px;
 }
 
-.forSaleItems{
+.forSaleItems {
   margin: 30px auto;
 }
 
-#forSale{
+#forSale {
   margin-bottom: 70px;
 }
 
-#fall1, #fall2, #fall3{
+#fall1, #fall2, #fall3 {
   margin: 20px 40px;
   height: 500px;
   width: 300px;
 }
 
-#merch1, #merch2, #merch3{
+#merch1, #merch2, #merch3 {
   height: 400px;
   width: 300px;
   margin: 20px 40px;
 }
 
-.merchTitle{
+.merchTitle {
   font-size: 20px;
 }
 
-
-#footone{
+#footone {
   margin: 10px 50px;
   color: white;
 }
 
-#foottwo{
+#foottwo {
   margin: 10px auto;
   color: white;
 }
 
-#footthree{
+#footthree {
   margin: 10px 50px;
   color: white;
 }
 
-li a{
+li a {
   color: white;
 }
 
-li{
+li {
   list-style: none;
-  font-size:12px;
+  font-size: 12px;
   text-align: center;
-
 }
 
-iframe{
+iframe {
   margin-bottom: 20px;
 }
 
-#submitButton{
+#submitButton {
   width: 300px;
   margin-top: 15px;
 }
 
-.preorderHeader, .merchOrderTitle, .shopHeader, .forSaleTitle{
+.preorderHeader, .merchOrderTitle, .shopHeader, .forSaleTitle {
   text-align: center;
   width: 95%;
   margin-top: 20px;
 }
 
-
-
-#paymentMethods{
+#paymentMethods {
   font-size: 11px;
   color: gold;
 }
 
-#sizes{
+#sizes {
   font-size: 11px;
   color: gold;
 }
 
-#colors{
+#colors {
   font-size: 11px;
   color: gold;
 }
 
-#orderRowOne, #orderRowTwo, #orderRowThree, #orderRowFour, #orderRowFive, #merchOrderRowOne,
-#merchOrderRowTwo,  #merchOrderRowThree,  #merchOrderRowFour,  #merchOrderRowFive, #merchOrderRowSix{
+#orderRowOne, #orderRowTwo, #orderRowThree, #orderRowFour, #orderRowFive, #merchOrderRowOne, #merchOrderRowTwo, #merchOrderRowThree, #merchOrderRowFour, #merchOrderRowFive, #merchOrderRowSix {
   margin: 20px auto;
 }
 
-#atgpatch, #atglighter{
+#atgpatch, #atglighter {
   color: white;
 }
 
-#merchOrderRowFive{
+#merchOrderRowFive {
   margin-left: 40px;
 }
 
-
-span{
+span {
   color: white;
 }
 
-.bg-black{
+.bg-black {
   background-color: black;
 }
