@@ -7,18 +7,6 @@
   margin-top: 20px;
 }
 
-#popUp{
-  width: 400px;
-  height: 400px;
-  margin-top: 20px;
-}
-
-#beRealTitle, #popUpTitle{
-  text-align: center;
-  margin-top: 20px;
-  text-decoration: underline;
-}
-
 .releaseTitle{
   margin-top: 30px;
   font-size: 28px;
