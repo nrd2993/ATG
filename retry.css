@@ -8,8 +8,28 @@
   font-size: 28px;
   text-decoration: underline;
   text-align: center;
-
 }
+img.test{
+  width: 400px;
+  height: 300px;
+}
+img.test2{
+  width: 250px;
+  height: 250px;
+}
+
+#popUpTitle{
+  text-align: center;
+}
+
+video{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+img.test, img.test2{
+  margin: 5px;
+}
+
 .hashtags {
   text-align: center;
   margin-top: 9px;
@@ -185,11 +205,6 @@ a.btn {
   margin: 30px 20px;
 }
 
-#photoRowA, #photoRowB, #photoRowC, #photoRowD {
-  width: 100%;
-  margin: 20px auto;
-}
-
 #PhotoGalTitleText {
   font-size: 28px;
   color: white;
@@ -200,11 +215,36 @@ a.btn {
 }
 
 .images {
-  width: 100%;
-  height: 100%;
-  margin: 5px auto;
+  width: 200px;
+  height: 200px;
+  margin: 5px;
 }
 
+.images2{
+  width: 300px;
+  height: 200px;
+  margin: 5px;
+}
+
+#bottom{
+  margin-bottom: 200px;
+}
+
+#eventJumbo{
+  width: 80%;
+  background-image:
+  linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),url(Images/overwatchbw.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  float: center;
+  margin-top: 20px;
+  margin-bottom: 300px;
+  min-height: 300px;
+  background-size: cover;
+}
 
 .overlay {
   position: absolute;
