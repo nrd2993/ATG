@@ -3,6 +3,19 @@
   height: 5%;
 }
 
+.newMusic{
+  height: 400px;
+  width: 400px;
+}
+
+.theGrindHeader{
+  font-size: 26px;
+  color: white;
+  margin-top: 15px;
+  text-align: center;
+}
+
+
 .releaseTitle{
   margin-top: 30px;
   font-size: 28px;
