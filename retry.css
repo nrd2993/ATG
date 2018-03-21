@@ -15,7 +15,9 @@
   text-align: center;
 }
 
-
+#hoodies{
+  padding: auto 5px;
+}
 .releaseTitle{
   margin-top: 30px;
   font-size: 28px;
@@ -351,7 +353,17 @@ label {
 #merch1, #merch2, #merch3 {
   height: 400px;
   width: 300px;
-  margin: 20px 40px;
+  margin: 10px 40px;
+}
+
+.hoodieTitle{
+  font-size: 20px;
+}
+
+.hoodiepic{
+  height: 400px;
+  width: 300px;
+  margin: 5px 10px;
 }
 
 .merchTitle {
