@@ -122,6 +122,10 @@
               <input type="text" name="state" id="state" class="rounded">
             </div>
             <div class="d-flex flex-column col-6">
+              <label for="quantity">Quantity: </label>
+              <input type="text" name="quantity" id="quantity" class="rounded">
+            </div>
+            <div class="d-flex flex-column col-6">
               <label for="state">Method of Payment: <span id="paymentMethods">Paypal, Square Cash, Cash</span></label>
               <input type="text" name="state" id="state" class="rounded">
             </div>
@@ -221,6 +225,7 @@
           <label for="address2">Address 2:</label>
           <input type="text" name="address2" class="rounded" id="address2">
         </div>
+      </div>
 
         <div id="merchOrderRowThree" class="form-group form-row flex-row align-items-center justify-content-center">
           <div class="d-flex flex-column col-6">
@@ -231,10 +236,15 @@
             <label for="state">State:</label>
             <input type="text" name="state" class="rounded" id="state">
           </div>
-          <div class="d-flex flex-column col-4">
+          <div class="d-flex flex-column col-6">
             <label for="zipCode">Zip Code:</label>
             <input type="text" name="zipCode" class="rounded" id="zipCode">
           </div>
+          <div class="d-flex flex-column col-6">
+            <label for="state">Method of Payment: <span id="paymentMethods">Paypal, Square Cash, Cash</span></label>
+            <input type="text" name="PaymentMethod" id="state" class="rounded">
+          </div>
+        </div>
 
           <div id="merchOrderRowFour" class="form-group form-row flex-row justify-content-center align-items-center">
             <div class="d-flex flex-column col-6">
@@ -246,11 +256,12 @@
               <input type="text" name="ShirtColor" id="state" class="rounded">
             </div>
             <div class="d-flex flex-column col-6">
-              <label for="state">Method of Payment: <span id="paymentMethods">Paypal, Square Cash, Cash</span></label>
-              <input type="text" name="PaymentMethod" id="state" class="rounded">
+              <label for="quantity">Quantity: </label>
+              <input type="text" name="quantity" id="quantity" class="rounded">
             </div>
           </div>
-          <div id="merchOrderRowFive" class="d-flex flex-column col-6">
+
+          <div id="merchOrderRowFive" class="d-flex col-6 justify-content-around align-items-center">
             <div class="d-flex flex-row">
               <input type="radio" id="atgpatch" name="atgpatch" value="Against the Grain Patch">
               <label for="atgpatch">ATG Patch</label>
@@ -259,11 +270,13 @@
               <input type="radio" id="atglighter" name="atglighter" value="Against the Grain Lighter">
               <label for="atglighter">ATG Lighter</label>
             </div>
+            <div class = "d-flex col-4">
+              <input type="submit" class="btn btn-primary" value="Send">
+            </div>
           </div>
-          <div id="merchOrderRowSix" class="d-flex flex-column col-4">
-            <input type="submit" class="btn btn-primary" value="Send">
-          </div>
-          </div>
+        </div>
+
+
 
 
           <div id="footer" class="d-flex flex-md-row flex-column align-items-center justify-content-center">
@@ -288,7 +301,6 @@
               <li class="QCS"><a href="https://spinrilla.com/mixtapes/trizzill-the-roundtable">The Roundtable</a></li>
             </ul>
           </div>
-        </div>
 
 
 </body>
